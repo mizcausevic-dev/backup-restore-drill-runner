@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0b1220"/><stop offset="100%" stop-color="#08101d"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="#05070c"/>
+  <rect x="48" y="48" width="1504" height="804" rx="30" fill="url(#bg)" stroke="#17324d" stroke-width="2"/>
+  <text x="96" y="118" fill="#ffcc66" font-family="ui-monospace,Consolas,monospace" font-size="26" letter-spacing="6">RESTORE POSTURE</text>
+  <text x="96" y="196" fill="#f2f7ff" font-family="Georgia,Times New Roman,serif" font-size="62" font-weight="700">Restore evidence and timing gaps stay buyer-readable.</text>
+  <text x="96" y="138" fill="#b8c9df" font-family="Segoe UI,Arial,sans-serif" font-size="30">
+    <tspan x="96" dy="0">Restore posture flags where rehearsal</tspan>
+    <tspan x="96" dy="40">timing, evidence packets, or checksum</tspan>
+    <tspan x="96" dy="40">validation still lag.</tspan>
+  </text>
+  <text x="96" y="292" fill="#b8c9df" font-family="Segoe UI,Arial,sans-serif" font-size="30">
+    <tspan x="96" dy="0">payments-postgres: Restore chain exceeded</tspan>
+    <tspan x="96" dy="40">the target window and operator notes are</tspan>
+    <tspan x="96" dy="40">incompleteidentity-vault: Snapshot restored,</tspan>
+    <tspan x="96" dy="40">but credential validation is still</tspan>
+    <tspan x="96" dy="40">pendinganalytics-warehouse: Warehouse</tspan>
+    <tspan x="96" dy="40">recovery run completed with clean signoff</tspan>
+    <tspan x="96" dy="40">and reconciled row countscms-assets: Asset</tspan>
+    <tspan x="96" dy="40">checksum packet is partial and CDN warm-up</tspan>
+    <tspan x="96" dy="40">is still open</tspan>
+  </text>
+</svg>

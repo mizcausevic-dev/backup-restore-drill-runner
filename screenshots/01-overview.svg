@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0b1220"/><stop offset="100%" stop-color="#08101d"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="#05070c"/>
+  <rect x="48" y="48" width="1504" height="804" rx="30" fill="url(#bg)" stroke="#17324d" stroke-width="2"/>
+  <text x="96" y="118" fill="#19c7ff" font-family="ui-monospace,Consolas,monospace" font-size="26" letter-spacing="6">BACKUP RESTORE DRILL RUNNER</text>
+  <text x="96" y="196" fill="#f2f7ff" font-family="Georgia,Times New Roman,serif" font-size="62" font-weight="700">Backup and restore drill runner for recovery timing and evidence posture.</text>
+  <text x="96" y="138" fill="#b8c9df" font-family="Segoe UI,Arial,sans-serif" font-size="30">
+    <tspan x="96" dy="0">Total drills: 4 · recover-now drills: 1 ·</tspan>
+    <tspan x="96" dy="40">average overrun: 0.5 hours.</tspan>
+  </text>
+  <text x="96" y="252" fill="#b8c9df" font-family="Segoe UI,Arial,sans-serif" font-size="30">
+    <tspan x="96" dy="0">Highest-pressure systems: .</tspan>
+  </text>
+  <text x="96" y="326" fill="#b8c9df" font-family="Segoe UI,Arial,sans-serif" font-size="30">
+    <tspan x="96" dy="0">The operator surface keeps restore timing,</tspan>
+    <tspan x="96" dy="40">blockers, checksum evidence, and rehearsal</tspan>
+    <tspan x="96" dy="40">state visible in one proof set.</tspan>
+  </text>
+</svg>

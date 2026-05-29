@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0b1220"/><stop offset="100%" stop-color="#08101d"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="#05070c"/>
+  <rect x="48" y="48" width="1504" height="804" rx="30" fill="url(#bg)" stroke="#17324d" stroke-width="2"/>
+  <text x="96" y="118" fill="#37ff8b" font-family="ui-monospace,Consolas,monospace" font-size="26" letter-spacing="6">DRILL LANE</text>
+  <text x="96" y="196" fill="#f2f7ff" font-family="Georgia,Times New Roman,serif" font-size="62" font-weight="700">Systems with the most fragile recovery drills stay visible.</text>
+  <text x="96" y="138" fill="#b8c9df" font-family="Segoe UI,Arial,sans-serif" font-size="30">
+    <tspan x="96" dy="0">payments-postgres · tier1-stateful · false</tspan>
+    <tspan x="96" dy="40">blockers · STAGING-REHEARSAL</tspan>
+  </text>
+  <text x="96" y="252" fill="#b8c9df" font-family="Segoe UI,Arial,sans-serif" font-size="30">
+    <tspan x="96" dy="0">identity-vault · security-secrets · true</tspan>
+    <tspan x="96" dy="40">blockers · EVIDENCE-REVIEW</tspan>
+  </text>
+  <text x="96" y="366" fill="#b8c9df" font-family="Segoe UI,Arial,sans-serif" font-size="30">
+    <tspan x="96" dy="0">analytics-warehouse · reporting-platform ·</tspan>
+    <tspan x="96" dy="40">true blockers · VALIDATED</tspan>
+  </text>
+  <text x="96" y="480" fill="#b8c9df" font-family="Segoe UI,Arial,sans-serif" font-size="30">
+    <tspan x="96" dy="0">cms-assets · content-delivery · false</tspan>
+    <tspan x="96" dy="40">blockers · MANUAL-CHECK</tspan>
+  </text>
+</svg>
