@@ -96,7 +96,7 @@ ${drill_rows}
 ${card_items}
 </div></section>
 <div class="quote"><div class="lbl">Why this matters</div><div class="q">A backup and restore drill kit becomes monetizable when the same Bash analysis can support runbook templates, recovery evidence packets, and embedded resilience work for platform teams.</div></div>
-<footer><div>discipline · backup and recovery drills</div><div>focus · restore timing / blockers / evidence</div><div>overview snapshot</div></footer>
+<footer><div>discipline · backup and recovery drills</div><div>focus · restore timing / blockers / evidence</div><div>overview snapshot</div><div><a href="https://github.com/mizcausevic-dev/">GitHub</a> · <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a> · <a href="https://kineticgain.com/">Kinetic Gain</a></div></footer>
 EOF
 )"
 
