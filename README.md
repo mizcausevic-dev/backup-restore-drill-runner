@@ -27,16 +27,16 @@ Bash-native operator surface for SRE, Platform, and infrastructure teams reviewi
 ## Local development
 
 ```powershell
-& 'C:\Program Files\Git\bin\bash.exe' -lc "cd /c/Users/chaus/dev/repos/backup-restore-drill-runner && bash scripts/run_demo.sh"
-& 'C:\Program Files\Git\bin\bash.exe' -lc "cd /c/Users/chaus/dev/repos/backup-restore-drill-runner && bash scripts/generate_site.sh"
+bash scripts/run_demo.sh
+bash scripts/generate_site.sh
 ```
 
 ## Validation
 
 ```powershell
-& 'C:\Program Files\Git\bin\bash.exe' -lc "cd /c/Users/chaus/dev/repos/backup-restore-drill-runner && bash test/runtests.sh"
-& 'C:\Program Files\Git\bin\bash.exe' -lc "cd /c/Users/chaus/dev/repos/backup-restore-drill-runner && bash scripts/smoke_check.sh"
-& 'C:\Program Files\Git\bin\bash.exe' -lc "cd /c/Users/chaus/dev/repos/backup-restore-drill-runner && bash scripts/render_readme_assets.sh"
+bash test/runtests.sh
+bash scripts/smoke_check.sh
+bash scripts/render_readme_assets.sh
 ```
 
 ## Safety note
