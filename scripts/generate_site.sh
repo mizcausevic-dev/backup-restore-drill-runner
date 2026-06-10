@@ -62,11 +62,27 @@ page() {
   <div class="grid-bg"></div>
   <div class="wrap">
 ${content}
+    <footer><div>Backup Restore Drill Runner</div><div><a href="https://backup.kineticgain.com/">Live</a> · <a href="https://github.com/mizcausevic-dev/backup-restore-drill-runner">GitHub</a> · <a href="https://portfolio.kineticgain.com/">Portfolio</a> · <a href="https://kineticgain.com/">Kinetic Gain</a></div></footer>
   </div>
 </body>
 </html>
 EOF
 }
+
+shared_depth="$(cat <<'EOF'
+<section class="section"><div class="sh"><h2>Product depth</h2><div class="note">Buyer value, technical proof, and GTM story</div></div><div class="cards">
+  <div class="card"><div class="eyebrow">Buyer value</div><h3>Recovery confidence without another vague status deck.</h3><p>Leaders see which systems miss restore windows, where evidence is incomplete, and what needs to be repeated before backup posture becomes board-readable.</p></div>
+  <div class="card"><div class="eyebrow">Technical proof</div><h3>Bash does the analysis and publishes the surface.</h3><p>The shell runner computes restore timing, blocker pressure, and route-ready evidence from the same data path used by tests, smoke checks, and README assets.</p></div>
+  <div class="card"><div class="eyebrow">GTM story</div><h3>Runbook kit today, embedded resilience work later.</h3><p>The public repo demonstrates a paid backup rehearsal kit, recovery evidence checklist, and platform-consulting entry point for infrastructure teams.</p></div>
+</div></section>
+<section class="section"><div class="sh"><h2>What these repos have in common</h2><div class="note">Risk signal · owner context · evidence packet · next action</div></div><div class="cards">
+  <div class="card"><div class="eyebrow">Risk signal</div><h3>Restore windows become measurable.</h3><p>Target versus actual recovery time, blocker count, and evidence completeness replace hand-wavy recovery confidence.</p></div>
+  <div class="card"><div class="eyebrow">Owner context</div><h3>Every drill stays tied to a system lane.</h3><p>The surface keeps the audience, system, and operational owner visible so remediation does not disappear into a generic platform backlog.</p></div>
+  <div class="card"><div class="eyebrow">Evidence packet</div><h3>Static output is the proof layer.</h3><p>Routes, sitemap, README screenshots, tests, and smoke checks create a repeatable packet that can be reused in diligence, board, and operator reviews.</p></div>
+  <div class="card"><div class="eyebrow">Next action</div><h3>Recommendations stay operational.</h3><p>Each drill resolves to a concrete action: recover now, rerun the drill, tighten evidence, or preserve the working lane.</p></div>
+</div></section>
+EOF
+)"
 
 overview_content="$(cat <<EOF
 <div class="topbar"><div class="left">language atlas · shell recovery surface</div><div class="right"><div>backup.kineticgain.com</div><div>generated 2026-05-28 · platform engineering</div></div></div>
@@ -96,7 +112,7 @@ ${drill_rows}
 ${card_items}
 </div></section>
 <div class="quote"><div class="lbl">Why this matters</div><div class="q">A backup and restore drill kit becomes monetizable when the same Bash analysis can support runbook templates, recovery evidence packets, and embedded resilience work for platform teams.</div></div>
-<footer><div>discipline · backup and recovery drills</div><div>focus · restore timing / blockers / evidence</div><div>overview snapshot</div><div><a href="https://github.com/mizcausevic-dev/">GitHub</a> · <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a> · <a href="https://kineticgain.com/">Kinetic Gain</a></div></footer>
+${shared_depth}
 EOF
 )"
 
@@ -106,6 +122,7 @@ drill_lane_content="$(cat <<EOF
 <section class="section"><div class="tablewrap"><table><thead><tr><th>System</th><th>Lane</th><th>Drill type</th><th>State</th><th>Status</th></tr></thead><tbody>
 $(awk -F'|' '$1=="drill" { printf "<tr><td><b>%s</b><br><span class=\"section-note\">%s</span></td><td>%s</td><td>%s</td><td>%s</td><td><span class=\"status %s\">%s</span></td></tr>\n", $3, $2, $4, $5, $10, ($11=="red"?"bad":($11=="yellow"?"warn":"green")), toupper($11) }' "$report")
 </tbody></table></div></section>
+${shared_depth}
 EOF
 )"
 
@@ -115,6 +132,7 @@ recovery_matrix_content="$(cat <<EOF
 <section class="section"><div class="cards">
 ${matrix_items}
 </div></section>
+${shared_depth}
 EOF
 )"
 
@@ -124,6 +142,7 @@ restore_posture_content="$(cat <<EOF
 <section class="section"><div class="tablewrap"><table><thead><tr><th>System</th><th>Overrun</th><th>Recommendation</th></tr></thead><tbody>
 ${posture_rows}
 </tbody></table></div></section>
+${shared_depth}
 EOF
 )"
 
@@ -135,6 +154,7 @@ verification_content="$(cat <<EOF
   <div class="card"><div class="eyebrow">Routes</div><h3>Static proof surface</h3><p>/ · /drill-lane/ · /recovery-matrix/ · /restore-posture/ · /verification/ · /docs/</p></div>
   <div class="card"><div class="eyebrow">Commercial path</div><h3>Runbook kit and consulting</h3><p>Paid runbook kit now, with embedded recovery evidence work by engagement.</p></div>
 </div></section>
+${shared_depth}
 EOF
 )"
 
@@ -146,6 +166,7 @@ docs_content="$(cat <<EOF
   <div class="card"><div class="eyebrow">Tier 2</div><h3>Paid runbook kit</h3><p>Restore rehearsal packets, recovery readiness decks, and backup evidence starter kits.</p></div>
   <div class="card"><div class="eyebrow">Tier 4</div><h3>Embedded by engagement</h3><p>Kinetic Gain can adapt the shell runner for a platform, SRE, or infrastructure operations team.</p></div>
 </div></section>
+${shared_depth}
 EOF
 )"
 

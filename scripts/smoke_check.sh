@@ -24,4 +24,11 @@ for needle in "Backup restore drill runner" "/restore-posture/" "platform engine
   grep -q "$needle" <<<"$root_html" || { echo "Expected keyword missing from root HTML: $needle" >&2; exit 1; }
 done
 
+for path in site/index.html site/drill-lane/index.html site/recovery-matrix/index.html site/restore-posture/index.html site/verification/index.html site/docs/index.html; do
+  html="$(<"$path")"
+  for needle in "Product depth" "What these repos have in common" "portfolio.kineticgain.com" "GitHub" "Kinetic Gain"; do
+    grep -q "$needle" <<<"$html" || { echo "Expected product-depth marker missing from $path: $needle" >&2; exit 1; }
+  done
+done
+
 echo "Smoke check passed."
